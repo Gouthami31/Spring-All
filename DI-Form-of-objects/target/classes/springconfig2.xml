@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans.xsd">
+ <!--<bean id="product" class="com.mvn.DI_Form_of_objects.ProductBean">
+    <property name="proid" value="145" />
+    <property name="pname" value="books" />
+    <property name="price" value="100" />
+</bean>
+
+<bean id="order" class="com.mvn.DI_Form_of_objects.ProductBean">
+		<property  name="oid" value="1"></property>
+		<property name="pro" ref="product" ></property>
+	</bean>-->
+</beans>

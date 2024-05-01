@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="first" class="com.mvn.ConstructorInjection.BeanClass"> 
+		<constructor-arg value="101"/>
+		<constructor-arg value="gouthami"/>
+		<constructor-arg value="java"/>
+		<constructor-arg value="11"/>
+		<constructor-arg value="ameerpet"/>
+	</bean>
+</beans>

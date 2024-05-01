@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="adress" class="com.mvn.DI_Form.AddressBean"> 
+		<!--<constructor-arg value="1-21/a"/>
+		<constructor-arg value="kodangal"/>
+		<constructor-arg value="telangana"/>
+		<constructor-arg value="509336"/>-->
+		
+		<property name="houseNum" value="22-1-90/83"/>
+        <property name="city" value="warangal"/> 
+        <property name="state" value="Telangana"/>
+        <property name="pincode" value="506006"/>
+		
+	</bean>
+	<bean id="student" class="com.mvn.DI_Form.StudentBean"> 
+		<!--<constructor-arg value="1"/>
+		<constructor-arg value="gouthami"/>
+		<constructor-arg ref="adress"/>-->
+		
+		<property name="sid" value="1"/>
+		<property name="sname" value="gouthami"/>
+		<property name="ab" ref="adress"/>
+		
+	</bean>
+	
+</beans>

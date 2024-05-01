@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="institute" class="com.mvn.collection_property.ATBean"> 
+		<property name="studentbatches">
+			<props>
+				<prop key="1st batch"> java</prop>
+			</props>
+		</property>
+		
+		<!--<constructor-arg>
+        <map>
+				<entry key="name"  value="gouthami"/>
+				<entry key="age"  value="21"/>
+				<entry key="gender"  value="female"/>
+				<entry key="address"  value="kodangal"/>
+			</map>
+    </constructor-arg>-->
+		
+	</bean>
+	</beans>

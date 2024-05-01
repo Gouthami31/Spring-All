@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="institute" class="com.mvn.collection_all.Employee"> 
+		
+		
+	<constructor-arg>
+        <list>
+			<value>gouthami</value>
+			<value>reddy</value>
+		</list>     
+    </constructor-arg>
+   
+    <constructor-arg>
+		<set>
+			<value>01</value>
+			<value>02</value>
+		</set>		
+	</constructor-arg>
+	
+	<constructor-arg>
+		<map>
+			<entry key="dep1" value="financial"/>
+			<entry key="dep2" value="economy"/>
+		</map>		
+	</constructor-arg>
+	
+	<constructor-arg>
+		<props>
+			<prop key="salary">30,000</prop>
+			<prop key="salary">45,000</prop>
+		</props>
+	</constructor-arg>
+	
+	
+		
+	</bean>
+	</beans>
